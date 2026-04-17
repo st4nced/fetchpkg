@@ -29,10 +29,10 @@ jobs:
         sudo apt install build-essential clang-18 lld-18 wget libcurl4-openssl-dev mingw-w64 mingw-w64-x86-64-dev
 
     - name: Download cURL for Windows
-      run: wget https://curl.se/windows/dl-8.8.0_3/curl-8.8.0_3-win64-mingw.zip
+      run: wget https://curl.se/windows/dl-8.19.0_7/curl-8.19.0_7-win64-mingw.zip
 
     - name: Extract curl for Windows
-      run: unzip curl-8.8.0_3-win64-mingw.zip
+      run: unzip curl-8.19.0_7-win64-mingw.zip
 
     - name: Install toolchain for PS5
       run: |
